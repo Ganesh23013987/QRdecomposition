@@ -19,7 +19,31 @@ To implement QR decomposition algorithm using the Gram-Schmidt method.
 4.	Construct the upper triangular matrix R
     ![eqn5](./ex2.jpg)
 
-
+## program steps:
+# Step 1: 
+Import the numpy library with the alias np
+# Step 2: 
+Define a function called QR_Decomposition that takes a matrix A as input
+# Step 3: 
+Get the dimensions of the matrix A
+# Step 4: 
+Create empty matrices Q and U to store intermediate results
+# Step 5: 
+Initialize the first column of U and Q
+# Step 6: 
+Perform Gram-Schmidt process for the remaining columns
+# Step 7: 
+Initialize the R matrix
+# Step 8: 
+Populate the upper triangular part of R
+# Step 9: 
+Print the Q and R matrices
+# Step 10: 
+Take user input for the matrix A
+# Step 11: 
+Call the QR_Decomposition function with the input matrix A
+# Step 12:
+End program.
 
 ## Program:
 ### Gram-Schmidt Method
